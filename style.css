@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shape{
+    background-color: black;
+    color: white;
+    height: 300px;                 /*for square shape */
+    width: 300px; 
+    border: 2px solid black;
+    font-family: 'Montserrat';
+    display: flex;                    /* this below three is for text in square*/
+    align-items: center;             /*vertically*/
+    justify-content: center;         /*horizontally*/
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+img{
+   width: 85%;
+    height: 250px;;
+    object-fit: cover;
+   }
